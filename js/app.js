@@ -9,4 +9,5 @@ function calculateTip(event) {
     console.log(amount.value)
     var result = amount.value * .2
     tipMessage.innerHTML = "You should tip $" + result.toFixed(2)
+    tipMessage.classList.add("bg-info")
 }

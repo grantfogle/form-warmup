@@ -14,3 +14,7 @@ form {
     display: flex;
     flex-direction: column;
 }
+
+p {
+    margin-top: 2em;
+}
